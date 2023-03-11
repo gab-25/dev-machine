@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#install packages
+sudo pacman -Sycd dev --noconfirm docker git vim wget curl base-devel htop code dbeaver vitualbox gimp inkscape latte-dock
+
 #docker config
 sudo usermod -aG docker $USER
 

@@ -13,21 +13,6 @@
         "type": "nm"
     },
     "ntp": true,
-    "packages": [
-        "docker",
-        "git",
-        "wget",
-        "curl",
-        "base-devel",
-        "htop",
-        "code",
-        "dbeaver",
-        "virtualbox",
-        "gimp",
-        "inkscape",
-        "vim",
-        "latte-dock"
-    ],
     "profile": "kde",
     "services": [
         "docker"
