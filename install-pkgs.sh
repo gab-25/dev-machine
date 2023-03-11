@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #install packages
-sudo pacman -Sycd dev --noconfirm docker git vim wget curl base-devel htop code dbeaver vitualbox gimp inkscape latte-dock libreoffice-still
+sudo pacman -S --noconfirm docker git vim wget curl base-devel htop code dbeaver virtualbox gimp inkscape latte-dock libreoffice-still
 
 #docker config
 sudo usermod -aG docker $USER
